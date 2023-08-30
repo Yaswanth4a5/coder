@@ -1,0 +1,79 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOhEbKFuX4cWa2sUpR5jyX3"
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": 16,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "lru6HOKGFi8b",
+        "outputId": "b3057e10-2056-4d4a-e373-39c4a43ab0b0"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2\n"
+          ]
+        }
+      ],
+      "source": [
+        "num=[12,345,2,6,7896]\n",
+        "k=[]\n",
+        "for i in num:\n",
+        "  k.append(str(i))\n",
+        "c=0\n",
+        "for i in k:\n",
+        "   if len(i)%2==0:\n",
+        "    c+=1\n",
+        "print(c)\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n=[2,3,4,6,6,5]\n",
+        "p=set(n)\n",
+        "k=[]\n",
+        "for i in p:\n",
+        "  k.append(int(i))\n",
+        "  k.sort()\n",
+        "print(k[-2])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "gU9gcYAyH-qp",
+        "outputId": "402bf582-8deb-457e-8252-039c7987d63e"
+      },
+      "execution_count": 20,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "5\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
