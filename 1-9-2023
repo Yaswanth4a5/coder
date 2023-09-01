@@ -1,0 +1,97 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMpH7jA43tG8i7GIl2xXgaN"
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": 8,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "xEvwZp-8QsBp",
+        "outputId": "0ed36de4-c5e5-4a54-fb54-3ea3fcf920e2"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "5\n"
+          ]
+        }
+      ],
+      "source": [
+        "def lonelynumber(n):\n",
+        "  s=[]\n",
+        "  for i in n:\n",
+        "    v=n.count(i)\n",
+        "    if v<2:\n",
+        "      s.append(i)\n",
+        "  print(s[0])\n",
+        "lonelynumber([1,2,2,4,5,4,1])"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def twoswap(n):eeeeeeeeeeeeeeee\n",
+        " l=[]\n",
+        " n=str(n)\n",
+        "for i in n:\n",
+        "  l.append(int(i))\n",
+        "p1=[]\n",
+        "p2=[]\n",
+        "for i in l:\n",
+        "    if l.index(i)%2==0:\n",
+        "       p1.append(i)\n",
+        "    else:\n",
+        "       p2.append(i)\n",
+        "       k=[]\n",
+        "for i in range(0,len(p)):\n",
+        "        k.append(p2[i])\n",
+        "        k.append(p1[i])\n",
+        "        s=\" \"\n",
+        "for i in k:\n",
+        "        s+=str(i)\n",
+        "        print(s)\n",
+        "twoswap(384392)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 245
+        },
+        "id": "ZI-IHS4fSB1X",
+        "outputId": "5d88eca8-1f03-48d5-d0f3-c31548c12407"
+      },
+      "execution_count": 39,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "NameError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+            "\u001b[0;32m<ipython-input-39-def3630cbe36>\u001b[0m in \u001b[0;36m<cell line: 4>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      2\u001b[0m  \u001b[0ml\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      3\u001b[0m  \u001b[0mn\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0mstr\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mn\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 4\u001b[0;31m \u001b[0;32mfor\u001b[0m \u001b[0mi\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mn\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      5\u001b[0m   \u001b[0ml\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mappend\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mi\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      6\u001b[0m \u001b[0mp1\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mNameError\u001b[0m: name 'n' is not defined"
+          ]
+        }
+      ]
+    }
+  ]
+}
